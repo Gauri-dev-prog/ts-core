@@ -1,0 +1,20 @@
+1. Documentation
+	High Level Design:
+	•	Diagram showcasing the architecture:
+	•	Client: Postman or frontend
+	•	WebAPI Layer: Spring Boot Controllers
+	•	Business Logic Layer (BL): Services for calculations
+	•	Data Access Layer (DAL): Repositories
+	•	Database: Relational database (e.g., H2 for testing)
+
+	Database Design:
+	•	Entities:
+	•	Customer:
+	•	Fields: customerId, name, email
+	•	CustomerTransaction:
+	•	Fields: transactionId, customerId, amount, date
+	•	RewardPoints:
+	•	Fields: customerId, month, year, points
+
+	OpenAPI Documentation:
+	•	Use Swagger annotations to create documentation for your REST APIs.
